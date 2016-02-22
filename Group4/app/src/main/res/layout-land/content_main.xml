@@ -21,15 +21,15 @@
         android:layout_centerInParent="true"
 
         />
-
+    
     <Button
         android:id="@+id/ButtonGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:text="Game Mode"
         android:layout_below="@+id/Title"
-
+        android:layout_centerInParent="true" 
+        
         />
 
     <Button
@@ -38,9 +38,8 @@
         android:layout_height="wrap_content"
         android:text="Customization"
         android:layout_below="@+id/ButtonGame"
-        android:layout_margin="8dp"
-
-
+        android:layout_centerInParent="true" 
+        
         />
 
     <Button
@@ -49,9 +48,8 @@
         android:layout_height="wrap_content"
         android:text="Options"
         android:layout_below="@+id/ButtonCustomization"
-        android:layout_margin="8dp"
-
-
+        android:layout_centerInParent="true"
+        
         />
 
     <Button
@@ -60,8 +58,8 @@
         android:layout_height="wrap_content"
         android:text="Scores"
         android:layout_below="@+id/ButtonOptions"
-        android:layout_margin="8dp"
-
+        android:layout_centerHorizontal="true" 
+        
         />
 
 
