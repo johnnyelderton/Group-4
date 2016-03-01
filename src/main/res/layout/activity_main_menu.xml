@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.operationpenguinpanic.MainMenu">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Operation Penguin Panic!"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp" />
+
+    <Button
+        android:id="@+id/startgame"
+        android:text="Start Game"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="sendGame"
+        android:layout_marginBottom="46dp"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:text="Customization"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="sendCustom"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/startgame"
+        android:layout_alignStart="@+id/startgame" />
+
+    <Button
+        android:id="@+id/button2"
+        android:text="Options"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:onClick="sendOption"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:text="Score"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:onClick="sendScore"/>
+</RelativeLayout>
