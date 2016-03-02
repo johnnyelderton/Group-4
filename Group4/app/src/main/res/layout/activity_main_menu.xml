@@ -32,8 +32,6 @@
         android:layout_above="@+id/button"
         android:layout_centerHorizontal="true" />
 
-
-
     <Button
         android:id="@+id/button"
         android:text="Customization"
@@ -74,4 +72,6 @@
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2"
         android:onClick="sendScore"/>
+
+
 </RelativeLayout>
