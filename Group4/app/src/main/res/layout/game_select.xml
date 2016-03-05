@@ -4,9 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainbackground"
-
     >
-
 
 
     <TextView
@@ -20,9 +18,7 @@
         android:id="@+id/textstartmode"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp"
-
-        />
+        android:layout_marginTop="63dp" />
 
     <Button
         android:id="@+id/racing"
@@ -48,9 +44,7 @@
         android:background="@drawable/buttonshape"
         android:layout_below="@+id/racing"
         android:layout_centerInParent="true"
-        android:onClick="sendMarathon"
-
-        />
+        android:onClick="sendMarathon" />
 
     <Button
         android:id="@+id/asteroids"
@@ -63,9 +57,7 @@
         android:background="@drawable/buttonshape"
         android:layout_below="@+id/marathon"
         android:layout_centerInParent="true"
-        android:onClick="sendAsteroids"
-
-        />
+        android:onClick="sendAsteroids" />
 
     <Button
         android:layout_width="50dp"
@@ -75,7 +67,7 @@
         android:background="@drawable/backbuttonshape"
         android:layout_marginBottom="4dp"
         android:layout_marginLeft="4dp"
-        />
+        android:onClick="sendMainMenu" />
 
 
 </RelativeLayout>

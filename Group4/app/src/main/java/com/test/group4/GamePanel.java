@@ -1,4 +1,4 @@
-package com.test.operationpenguinpanic;
+package com.test.group4;
 
 import android.content.Context;
 import android.graphics.BitmapFactory;

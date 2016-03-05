@@ -1,4 +1,4 @@
-package com.test.operationpenguinpanic;
+package com.test.group4;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -13,7 +13,7 @@ public class MainMenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.content_main);
     }
 
     public void sendGame(View view){
